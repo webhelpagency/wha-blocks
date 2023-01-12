@@ -1,0 +1,10 @@
+# Ignore node modules in theme
+dev/wha-block-theme/node_modules/
+
+# Ignore mysql
+mysql/*
+
+#except usded DB
+!mysql/MYSQL_DATABASE
+
+.idea
