@@ -223,3 +223,16 @@ function disable_emojis_remove_dns_prefetch( $urls, $relation_type ) {
 
     return $urls;
 }
+/**
+ * Register the required plugins for this theme.
+ */
+
+require get_template_directory() . '/inc/tgm-plugins.php';
+
+add_action( 'tgmpa_register', 'my_theme_register_required_plugins' );
+
+/**
+ * SVG Support.
+ */
+
+require get_template_directory() . '/inc/svg-support.php';
