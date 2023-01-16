@@ -8,3 +8,5 @@ mysql/*
 !mysql/MYSQL_DATABASE
 
 .idea
+.DS_Store
+dev/wha-block-theme/.DS_Store
