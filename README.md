@@ -1,10 +1,23 @@
 # wha-blocks
-Run next command in the terminal.
+1. Run the command in the terminal.
 
 ```
 docker compose up 
 ```
 
-Open http://localhost:8080/ to see WordPress instance.
+2. Install Node Modules
 
-Open http://localhost:8081/ to see phpmyadmin instance.
+```
+cd dev/wha-block-theme
+npm install
+```
+
+3. Compile SCSS files in the styles folder
+
+```
+use IDE File Watcher to compile SCSS
+```
+
+Use http://localhost:8080/ to see WordPress instance.
+
+Use http://localhost:8081/ to see phpmyadmin instance.

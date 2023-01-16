@@ -10,3 +10,5 @@ mysql/*
 .idea
 .DS_Store
 dev/wha-block-theme/.DS_Store
+dev/wha-block-theme/styles/theme.css
+dev/wha-block-theme/styles/theme.css.map
