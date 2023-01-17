@@ -17,5 +17,5 @@ jobs:
           server: 192.248.156.232
           username: admin_testd
           password: C9U4XPpD7T
-          local-dir: /dev/wha-block-theme/
+          local-dir: ./dev/wha-block-theme/
           server-dir: /public_html/wp-content/themes/wha-block-theme/
