@@ -15,7 +15,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
           server: 192.248.156.232
-          username: admin_testd
-          password: C9U4XPpD7T
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
           local-dir: ./dev/wha-block-theme/
           server-dir: /public_html/wp-content/themes/wha-block-theme/
