@@ -34,6 +34,10 @@ npm install
 
 ``npm run bundle :`` generates a .zip archive for distribution, excluding development and system files.
 
+### Push to the FTP
+
+``.github/workflows/main.yml`` https://github.com/marketplace/actions/ftp-deploy
+
 Use http://localhost:8080/ to see WordPress instance.
 
 Use http://localhost:8081/ to see phpmyadmin instance.
